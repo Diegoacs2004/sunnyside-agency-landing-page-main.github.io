@@ -1,0 +1,311 @@
+
+.class-head{
+    background-image: url(images/desktop/image-header.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 720px;
+}
+
+.class-head h3{
+    display: flex;
+    margin-top: 34px;
+    margin-left: 24px;
+    font-weight: 900;
+    color: #fff;
+    font-size: 32px;
+}
+
+.links{
+    padding-top: 44px;
+    margin-left: 256px;
+}
+
+.head-a{
+    margin-left: 44px;
+    color: white;
+    font-size: 16px;
+    font-family: 'barlow';
+    text-decoration: none;
+}
+
+.contact-a{
+    background-color: white;
+    padding: 16px 28px;
+    border-radius: 28px;
+    color: #000000;
+    font-weight: 800;
+    font-family: 'fraunces';
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 28px;
+}
+
+.title {
+    color: white;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h1{
+    font-size: 48px;
+    font-family: 'fraunces';
+    font-weight: 900;
+    letter-spacing: 10px; 
+}
+
+.title svg{
+    margin-top: 70px;
+}
+
+.transform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 540px;
+    background-color: hsl(10, 60%, 98%);
+}
+
+.transform > h3 {
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'fraunces';
+    width: 400px;  
+    margin-left: 136px;
+}
+
+.transform > button{
+    border: none;
+    padding: 4px;
+    background-image: linear-gradient(to bottom, white 60%, rgb(255, 197, 88) );
+    font-family: 'fraunces';
+    border-radius: 8px;
+    font-size: 14px;
+    width: 128px;  
+    margin-left: 136px;
+    margin-top: 16px;
+    
+}
+
+.transform > p{
+    width: 400px;  
+    margin-top: 20px;
+    font-family: 'barlow';
+    color: hsl(232, 10%, 55%);
+    font-weight: 800;
+    margin-left: 136px;
+
+}
+
+.image-transform{
+    background-image: url(images/desktop/image-transform.jpg);
+    background-size: cover;
+    height: 540px;
+    background-repeat: no-repeat;
+}
+
+.image-stand-out{
+    background-image: url(images/desktop/image-stand-out.jpg);
+    background-size: cover;
+    height: 540px;
+    background-repeat: no-repeat;
+}
+
+.stand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 540px;
+    background-color: hsl(10, 60%, 98%);
+}
+
+.stand > h3 {
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'fraunces';
+    width: 400px;
+    margin-left: 90px;
+}
+
+.stand > button{
+    border: none;
+    padding: 4px;
+    background-image: linear-gradient(to bottom, white 60%, rgb(255, 197, 88) );
+    font-family: 'fraunces';
+    border-radius: 8px;
+    font-size: 14px;
+    width: 128px; 
+    margin-left: 90px;
+    margin-top: 16px;
+}
+
+.stand > p{
+    width: 400px;  
+    margin-top: 20px;
+    font-family: 'barlow';
+    color: hsl(232, 10%, 55%);
+    font-weight: 800;
+    margin-left: 90px;
+}
+
+.cereza{
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 535px;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+    text-align: center;
+}
+
+.cereza h6{
+    font-family: 'fraunces';
+    font-size: 25px;
+    margin-bottom: 24px;
+    color: hsl(167, 40%, 24%);
+}
+
+.cereza p{
+    width: 320px;
+    text-align: center;
+    margin-bottom: 60px;
+    color: hsl(167, 40%, 24%);
+    font-size: 14px;
+    font-weight: 500;
+    
+    
+}
+
+.mandarina{
+    background-image: url(images/desktop/image-photography.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 535px;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+}
+
+.mandarina h6{
+    font-family: 'fraunces';
+    font-size: 25px;
+    margin-bottom: 24px;
+    color: hsl(198, 62%, 26%);
+}
+
+.mandarina p{
+    width: 340px;
+    text-align: center;
+    margin-bottom: 60px;
+    color: hsl(198, 62%, 26%);
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+.clientes{
+    padding-left: 134px;
+    padding-right: 134px;
+    text-align: center;
+    height: 680px;
+    align-items: end;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    background-color: hsl(10, 60%, 98%);
+}
+
+.clientes h6{
+    font-size: 20px;
+    font-family: 'fraunces';
+    letter-spacing: 4px; 
+    margin-bottom: 70px;
+    color: hsl(210, 4%, 67%);
+}
+
+.img-client img{
+    width: 65px; /* Cambia este valor al ancho deseado */
+    border-radius: 50%;
+    margin-bottom: 52px;
+}
+
+.img-client p{
+    color: hsl(232, 10%, 55%);
+    font-weight: 600;
+    margin-bottom: 64px;
+    font-family: 'barlow';
+    line-height: 1.8;
+    font-size: 16.5px;
+}
+
+.img-client strong{
+    font-family: 'fraunces';
+}
+
+.img-client span{
+    color: hsl(210, 4%, 67%);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.images1{
+    background-image: url(images/desktop/image-gallery-milkbottles.jpg);
+    background-size: cover;
+    height: 402px;
+}
+
+.images2{
+    background-image: url(images/desktop/image-gallery-orange.jpg);
+    background-size: cover;
+    height: 402px;
+}
+
+.images3{
+    background-image: url(images/desktop/image-gallery-cone.jpg);
+    background-size: cover;
+    height: 402px;
+}
+
+.images4{
+    background-image: url(images/desktop/image-gallery-sugarcubes.jpg);
+    background-size: cover;
+    height: 402px;
+}
+
+.class-footer{
+    background-color: hsl(168, 49%, 66%);
+    align-items: center;
+    text-align: center;
+    height: 320px;
+}
+
+.class-footer h4{
+    font-size: 32px;
+    font-weight: 800;
+    color: hsl(167, 40%, 24%);
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.a-footer{
+    color: hsl(168, 34%, 41%);
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'barlow';
+    text-decoration: none;
+    margin-top: 64px;
+    margin-left: 25px ;
+    margin-right: 25px;
+}
+
+.class-footer img{
+    margin-left: 10px ;
+    margin-right: 10px;
+    padding-bottom: 32px;
+    width: 18px;
+    
+}
+ 
